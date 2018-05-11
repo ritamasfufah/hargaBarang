@@ -3,8 +3,8 @@ language: php
 php:
   -'7.0'
 
-env :
-  global :
+env:
+  global:
     - 'FTP_USER=ritamasfufah'
     - 'FTP_PASS=123holmes'
 
