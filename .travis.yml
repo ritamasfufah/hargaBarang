@@ -1,7 +1,7 @@
 language: php 
 
 php:
-  -'7.0'
+  - '7.0'
 
 env:
   global:
@@ -11,3 +11,5 @@ env:
     script:
       - "curl -u $FTP_USER::$FTP_PASS ftp://files.000webhost.com -Q 'mkd public_html'"
       - "curl -T coba.php -u $FTP_USERS.:$FTP_PASS ftp://file.000webhost.com/public_html"
+
+
